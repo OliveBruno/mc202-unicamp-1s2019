@@ -1,0 +1,57 @@
+Celebridade
+Uma celebridade é uma pessoa que é conhecida por todos mas que não conhece ninguém.
+Escreva um programa em C para determinar se um conjunto de até 1000 pessoas tem uma celebridade. A entrada é uma lista de frases da forma
+pessoa conhece pessoa
+sendo que o nome de uma pessoa tem no máximo 50 caracteres. A saída é uma frase da forma
+
+pessoa e' uma celebridade.
+
+ou da forma
+
+nao ha' celebridade.
+
+Exemplos
+
+Para a entrada
+
+Joao conhece Teresa
+Teresa conhece Raimundo
+Raimundo conhece Maria
+Maria conhece Joaquim
+Joaquim conhece Lili
+Lili conhece J. Pinto Fernandes
+
+a saída será
+
+Nao ha' celebridade.
+
+Para a entrada
+
+Joao conhece Teresa
+Teresa conhece Raimundo
+Raimundo conhece Maria
+Maria conhece Joaquim
+Joaquim conhece Lili
+Lili conhece J. Pinto Fernandes
+Joao conhece Nina
+Teresa conhece Nina
+Raimundo conhece Nina
+Maria conhece Nina
+Joaquim conhece Nina
+Lili conhece Nina
+J. Pinto Fernandes conhece Nina
+
+a saída será
+
+Nina e' celebridade.
+
+Sugestões:
+
+Comece fazendo um programa que apenas lê uma linha de cada vez da entrada e imprime.
+Depois adicione a funcionalidade para extrair os nomes de cada linha e apenas imprimir.
+Finalmente adicione a funcionalidade para determinar se há ou não celebridade.
+Durante a implementação vai ser mais produtivo usar o redirecionamento de entrada para testar seu programa. Veja a ajuda do sqtpm.
+Requisitos adicionais:
+
+Faça um programa organizado, bem indentado e que seja fácil de ler.
+Adicione comentários que vão ser úteis para entender o programa se você for relê-lo daqui a 10, 20, 30 anos. Comentar cada linha provavelmente vai ser redundante; documentar a estratégia usada na solução vai ser essencial.

@@ -1,0 +1,47 @@
+Reconstrução de árvores binárias
+Escreva um programa para reconstruir uma árvore binária recursivamente, dadas as impressões das chaves nos nós em pré-ordem e em-ordem, e imprimir as chaves em pós-ordem.
+Por exemplo, dadas as cadeias ABCDEF e CBAEDF, resultantes das impressões das chaves em pré-ordem e em-ordem respectivamente, o programa deve reconstruir a árvore representada abaixo e depois imprimir CBEFDA.
+
+	    A
+	   / \
+	  B   D
+	 /   / \
+	C   E   F
+A entrada para o programa consiste de vários casos-de-teste. Cada caso-de-teste é formado por duas cadeias, que são os símbolos nos nós da árvore binária impressos em pré-ordem e em-ordem, respectivamente. As cadeias são formadas por símbolos no conjunto {a,b,...,z,A,B,...,Z}.
+
+A saída deve ter uma linha com a pós-ordem para cada caso-de-teste.
+
+Exemplo
+Entrada
+A A
+ab ba
+Yxz xYz
+fxy yxf
+abc bac
+weq qew
+abg bga
+acd adc
+abt bta
+poeq eopq
+qwte wtqe
+cdef fedc
+ACBD ABDC
+ABCDEF CBAEDF
+Saída
+A
+ba
+xzY
+yxf
+bca
+qew
+gba
+dca
+tba
+eoqp
+tweq
+fedc
+DBCA
+CBEFDA
+Observações
+É suficiente definir o nó da árvore como um struct contendo apenas uma chave (char) e dois apontadores para os filhos do nó.
+Seu programa deve ter apenas a função main e mais três funções recursivas: uma para reconstruir a árvore, outra para imprimir os nós em pós-ordem e outra para destruir a árvore.

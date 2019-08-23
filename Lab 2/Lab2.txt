@@ -1,0 +1,17 @@
+Gráfico
+Escreva um programa em C para imprimir um gráfico de frequências na tela.
+Entrada e saída: O programa recebe como entrada uma seqüência de triplas (número,freqencia,caractere). Para cada seqüência ele deve imprimir uma barra, produzindo um gráfico como no exemplo abaixo.
+
+Exemplo Para a entrada
+
+(5,12,-) (4,17,-) (2,1,-) (1,19,+)
+o programa deve imprimir
+  5 |------------ 12
+  4 |----------------- 17
+  2 |- 1
+  1 |+++++++++++++++++++ 19
+Haverá pelo menos uma tripla na entrada, e todas são bem formadas. O número é menor que 1000 e a freqüência menor que 100 e maior ou igual a 1.
+
+Requisitos adicionais: 
+- Faça um programa organizado, bem indentação e que seja fácil de ler.
+
